@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  height: 300px;
+  width: 250px;
+  border-radius: 25px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.search input {
+  padding: 0.5rem 2rem;
+  width: 95%;
+  margin: 1rem;
+  border-radius: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+.card {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 25px !important;
+  background-color: #808080 !important;
+}
+.card-button {
+  padding: 0.5rem 3rem;
+  border-radius: 25px;
+  background-color: aqua;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 300px;
+  height: 300px; */
+}
